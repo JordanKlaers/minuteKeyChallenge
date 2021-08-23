@@ -16,6 +16,10 @@ const routes = [
         path: '/item',
         component: FocusedPage
     },
+	{
+		path: '/:pathMatch(.*)*',
+		component: MainPage
+	}
 ];
 
 const router = createRouter({

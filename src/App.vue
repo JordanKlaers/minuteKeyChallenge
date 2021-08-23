@@ -6,15 +6,13 @@
 import { mapActions } from "vuex";
 export default {
 	name: "App",
-	components: {
-	},
 	created() {
 		//Dispatch the action to get data
 		this.getBikesData();
 	},
 	methods: {
 		...mapActions(["getBikesData"]),
-	},
+	}
 };
 </script>
 

@@ -12,7 +12,7 @@
 		</content-table>
 		<content-grid
 			:cardsData="bikes"
-			v-if="activeView == 'grid'">
+			v-if="activeView == 'grid' && !!bikes && bikes.length">
 		</content-grid>
     </div>
 </template>
