@@ -6,7 +6,9 @@ module.exports = {
             extensions: ['.js'],
             alias: {
                 '_assets_': path.resolve(__dirname, './src/assets/'),
-                '_store_': path.resolve(__dirname, './src/store/')
+				'_components_': path.resolve(__dirname, './src/components/'),
+                '_store_': path.resolve(__dirname, './src/store/'),
+                '_templates_': path.resolve(__dirname, './src/templates/')
             }
         }
     }
