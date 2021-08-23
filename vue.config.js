@@ -12,6 +12,6 @@ module.exports = {
             }
         }
     },
-	publicPath: '/',
+	publicPath: '/minuteKeyChallenge/',
 	outputDir: 'docs'
 }
