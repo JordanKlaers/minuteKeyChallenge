@@ -27,7 +27,7 @@
 
 <script>
 export default {
-	name: "HelloWorld",
+	name: "ContentTable",
 	props: {
 		tableData: {
 			type: Object,
@@ -49,6 +49,7 @@ table {
 	font-weight: 400;
 	font-family: 'merriweather';
 	font-size: 16px;
+	color: #19191a;
 	thead, tbody {
 		tr td, tr th {
 			&:first-child {

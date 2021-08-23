@@ -11,5 +11,6 @@ module.exports = {
                 '_templates_': path.resolve(__dirname, './src/templates/')
             }
         }
-    }
+    },
+	publicPath: '/minuteKeyChallenge/'
 }

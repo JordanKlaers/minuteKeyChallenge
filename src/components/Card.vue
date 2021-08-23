@@ -16,7 +16,7 @@
 
 <script>
 export default {
-	name: "ContentGrid",
+	name: "card",
 	props: {
 		data: {
 			type: Object,
