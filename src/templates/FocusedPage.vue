@@ -18,7 +18,7 @@ export default {
 	computed: {
 		...mapGetters(['bikes']),
 		oneBike() {
-			return [this.bikes[0]];
+			return [this.bikes && this.bikes[0] || {}];
 		}
 	}
 };
